@@ -15,7 +15,7 @@
         <el-progress :percentage="18" />
       </div>
       <div class="progress-item">
-        <span>Css</span>
+        <span>CSS</span>
         <el-progress :percentage="12" />
       </div>
       <div class="progress-item">
@@ -61,14 +61,14 @@ export default {
 }
 </script>
 
-<style rel="stylesheet/scss" lang="scss" >
+<style lang="scss" >
 .box-card-component{
   .el-card__header {
     padding: 0px!important;
   }
 }
 </style>
-<style rel="stylesheet/scss" lang="scss" scoped>
+<style lang="scss" scoped>
 .box-card-component {
   .box-card-header {
     position: relative;
@@ -101,7 +101,7 @@ export default {
     background-color: #fff;
     margin: auto;
     box-shadow: none!important;
-    /deep/ .pan-info {
+    ::v-deep .pan-info {
       box-shadow: none!important;
     }
   }
